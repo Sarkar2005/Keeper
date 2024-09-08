@@ -1,5 +1,5 @@
 import Counter from "./Counter";
-import Porn from "./porn";
+import Po from "./Po";
 import AcUnitIcon from '@mui/icons-material/AcUnit';
 import White from "./white";
 import { useState } from "react";
@@ -23,7 +23,7 @@ function App() {
         <>
         <div style={{backgroundColor : color , height:"100vh"}}>
         <h1><AcUnitIcon /> Keeper</h1>
-        <Porn/>
+        <Po/>
         <Counter />
         {/* <White/> */}
         <button onClick={Bla}>Change theme</button>
