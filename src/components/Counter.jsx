@@ -9,6 +9,7 @@ function Counter(){
 
     return (
         <>
+        <h1>hello</h1>
             <h1>Count: {count}</h1>
             <button onClick = {handleChange}>-</button>
         </>
