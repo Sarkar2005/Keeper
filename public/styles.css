@@ -1,0 +1,23 @@
+h1{
+    color: rgb(249, 249, 249);
+    background-color: #FFCC00;
+    padding: 1.5%;
+    padding-left: 0%;
+    margin-top: 0%;
+    position: static;
+    right: 30px;
+    
+}
+body{
+    margin: 0%;
+   
+}
+
+.textb{
+    text-align: center;
+    padding-top: 24px;
+    row-gap: 400px;
+    column-gap: 30px;
+    
+   
+}
