@@ -24,9 +24,14 @@ function App() {
         <div style={{backgroundColor : color , height:"100vh"}}>
         <h1><AcUnitIcon /> Keeper</h1>
         <Po/>
-        <Counter />
+        {/* <Counter /> */}
         {/* <White/> */}
-        <button onClick={Bla}>Change theme</button>
+        {/* <button onClick={Bla}>Change theme</button> */}
+
+        
+
+
+
         </div>
         </>
     )
