@@ -14,22 +14,29 @@ function Po() {
       <div class="textb">
         {/* <form> */}
         <div class="">
-          {expanded  && <input id="" name="Title" placeholder="Title"  />}
+          {expanded  && <input id="" name="Title" placeholder="Title" 
+         style={{ width: '30%', height: '27px', fontSize: '16px' }} />}
         </div>
 
       
         <textarea
-          rows={20}
-          cols={40}
+          style={{ width: '30%', height: '200px', fontSize: '16px',  }}
           id=""
           name="Content"
           placeholder="Take a Note"
           onClick={handleChange}
         />
+        
         {/* </form> */}
+        <div>
+        <ControlPointIcon style={{ fontSize: '40px',   color: '#FFCC00', cursor: 'pointer',   marginLeft: '325px',position: 'relative', top: '-23px' }} /> 
+
+
+        </div>  
+        
       </div>
 
-      <ControlPointIcon />
+      {/* <ControlPointIcon style={{ fontSize: '40px', color: 'blue', cursor: 'pointer', position:'relative',}} /> */}
     </>
   );
 }
