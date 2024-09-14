@@ -5,6 +5,7 @@ import White from "./white";
 import { useState } from "react";
 
 
+
 function App() {
     const [color, set] = useState("white");
     const [isTrue , setTrue] = useState(false);
@@ -29,7 +30,7 @@ function App() {
         {/* <button onClick={Bla}>Change theme</button> */}
 
         
-
+      
 
 
         </div>

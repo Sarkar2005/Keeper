@@ -45,5 +45,13 @@ ControlPointIcon{
     
 }
 
+::placeholder{
+    
+    border-width: thick;
+    border:2px black;
+    padding: 0%;
+    font-family: cursive;
+}
+
 
 
