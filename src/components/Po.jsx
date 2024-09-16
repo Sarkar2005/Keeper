@@ -24,11 +24,6 @@ function Buttonclick(){
 
 
 
-
-
-
-
-
   return (
     <>
       <div class="textb">
